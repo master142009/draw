@@ -1,0 +1,39 @@
+body{
+    background-image: url("brush-strokes-background_53876-90918.png");
+}
+h1{
+    background-color: cornsilk;
+    color: royalblue;
+    margin-top: 24px;
+}
+#show_sketch{
+    margin-top: 3px;
+    float: right;
+}
+#Clearbtun{
+    font-size: 18px;
+    height: 45px;
+    width: 145px;
+}
+p{
+    color: black;
+}
+canvas 
+{
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: moveing;
+    animation-duration: 4s;
+    margin-top: 120px;
+    animation-iteration-count: infinite;
+}
+@keyframes moveing {
+    
+    from {box-shadow: 1px 1px 38px blueviolet}
+    to {box-shadow: 1px 1px 28px lightcoral}
+
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
